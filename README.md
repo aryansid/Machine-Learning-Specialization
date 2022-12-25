@@ -1,2 +1,3 @@
 # Machine-Learning-Specialization
-Deeplearning.ai machine learning specialization consists of three courses that covers the basics of machine learning. 
+Learning from deeplearning.ai machine learning specialization that consists of three coureses: Supervised Machine Learning: Regression and Classification, Advanced Learning Algorithms, Unsupervised Learning, Recommenders, Reinforcement Learning
+
