@@ -30,6 +30,11 @@ model.fit(x,y)
 
 
 #Forward propogation from scratch
+x = np.array([200,17])
+W = np.array([1,-3,5],
+             [-2,4,-6]])
+b = np.array([-1,1,2])
+
 def dense(a_in, W, b, g):
     units = W.shape(1)
     a_out = np.zeros(units)
@@ -45,4 +50,15 @@ def sequential(x):
     a3 = dense(a1,W3,b3)
     f_x = a3
     return f_x
+  
+#Using vectors
+x = np.array([[200,17]]) #change to 2D array (matrix)
+W = np.array([1,-3,5], #same
+             [-2,4,-6]])
+b = np.array([[-1,1,2]]) #change to 2D array
+
+def dense(a_in, W, b, g):
+  z = np.matmul(a_in, W) + b
+  a_out = g(z)
+  return a_out
 
